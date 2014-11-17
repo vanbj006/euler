@@ -44,6 +44,7 @@ int main() {
      char* s = heap_remove(names);
      ulong score = calcScore(s,i);
      total+= score;
+     i++;
   }
 
   printf("Total : %u\n",total);
